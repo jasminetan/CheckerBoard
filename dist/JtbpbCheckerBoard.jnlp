@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JtbpbCheckerBoard.jnlp">
+  <information>
+    <title>JtbpbCheckerBoard</title>
+    <vendor>jasminetan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JtbpbCheckerBoard.jar" size="5513" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JtbpbCheckerBoard" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="jtbpbcheckerboard.JtbpbCheckerBoard"  name="JtbpbCheckerBoard" />
+  <update check="always"/>
+</jnlp>
